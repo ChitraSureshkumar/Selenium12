@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGExecution.Nykaa"/>
+      <class name="testNGExecution.Amazon"/>
+      <class name="testNGExecution.SteamGames"/>
+      <class name="testNGExecution.Gmail"/>
+      <class name="testNGExecution.Instagram"/>
+      <class name="testNGExecution.Twitter"/>
+      <class name="testNGExecution.PokiGames"/>
+      <class name="testNGExecution.Pacogames"/>
+      <class name="testNGExecution.Flipkart"/>
+      <class name="testNGExecution.Facebook"/>
+      <class name="testNGExecution.CrazyGames"/>
+      <class name="testNGExecution.Ajio"/>
+      <class name="testNGExecution.LauncherGames"/>
+      <class name="testNGExecution.WhatsApp"/>
+      <class name="testNGExecution.Meesho"/>
+      <class name="testNGExecution.Chess"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

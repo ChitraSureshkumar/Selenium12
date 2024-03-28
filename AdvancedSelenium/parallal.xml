@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <run>
+			  <include name = "Games"></include>
+			  <include name="Ecommerce"></include>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="testNGExecution.Flipkart"/>
+      <class name="testNGExecution.Facebook"/>
+      <class name="testNGExecution.CrazyGames"/>
+      <class name="testNGExecution.Ajio"/>
+      <class name="testNGExecution.Amazon"/>
+      <class name="testNGExecution.Gmail"/>
+      <class name="testNGExecution.Instagram"/>
+      <class name="testNGExecution.Chess"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

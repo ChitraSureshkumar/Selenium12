@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Database connection Start]]>
+    </line>
+    <line>
+      <![CDATA[user is able to open the browser]]>
+    </line>
+    <line>
+      <![CDATA[user is able to land on DWS]]>
+    </line>
+    <line>
+      <![CDATA[user is able to cose the DWS]]>
+    </line>
+    <line>
+      <![CDATA[Database connection Stop]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-20T23:36:41 IST" name="Default suite" finished-at="2024-03-20T23:37:02 IST" duration-ms="21463">
+    <groups>
+    </groups>
+    <test started-at="2024-03-20T23:36:41 IST" name="Default test" finished-at="2024-03-20T23:37:02 IST" duration-ms="21463">
+      <class name="workingWithPom.TC_Login_002">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:workingWithPom.TC_Login_002@20ccf40b]" started-at="2024-03-20T23:36:41 IST" name="beforeSuite" finished-at="2024-03-20T23:36:41 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection Start]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:workingWithPom.TC_Login_002@20ccf40b]" started-at="2024-03-20T23:36:41 IST" name="browserSetup" finished-at="2024-03-20T23:36:54 IST" duration-ms="13166" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user is able to open the browser]]>
+            </line>
+            <line>
+              <![CDATA[user is able to land on DWS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="login()[pri:0, instance:workingWithPom.TC_Login_002@20ccf40b]" started-at="2024-03-20T23:36:54 IST" name="login" finished-at="2024-03-20T23:37:02 IST" duration-ms="7880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="toQuitBrowser()[pri:0, instance:workingWithPom.TC_Login_002@20ccf40b]" started-at="2024-03-20T23:37:02 IST" name="toQuitBrowser" finished-at="2024-03-20T23:37:02 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user is able to cose the DWS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toQuitBrowser -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:workingWithPom.TC_Login_002@20ccf40b]" started-at="2024-03-20T23:37:02 IST" name="afterSuite" finished-at="2024-03-20T23:37:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection Stop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- workingWithPom.TC_Login_002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
